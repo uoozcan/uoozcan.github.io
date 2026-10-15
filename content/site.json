@@ -1,0 +1,143 @@
+{
+  "_note": "All site text lives here, English and Turkish side by side. Facts come from the CV (02_CV.docx, 2026-09-15) and ORCID/Crossref. Unpublished projects: title, aim and status only (Umut, 2026-10-15). Keep phone numbers and private notes off the site.",
+  "name": "Umut Onur Özcan",
+  "orcid": "0000-0002-7317-1682",
+  "email": "umut.ozcan@helsinki.fi",
+  "links": [
+    {"label": "ORCID", "url": "https://orcid.org/0000-0002-7317-1682"},
+    {"label": "GitHub", "url": "https://github.com/uoozcan"},
+    {"label": "LinkedIn", "url": "https://www.linkedin.com/in/uonurozcan"}
+  ],
+  "role": {
+    "en": "Technical Assistant, In Silico Drug Discovery group, Institute for Molecular Medicine Finland (FIMM), University of Helsinki",
+    "tr": "Teknik Asistan, In Silico İlaç Keşfi grubu, Finlandiya Moleküler Tıp Enstitüsü (FIMM), Helsinki Üniversitesi"
+  },
+  "location": {"en": "Helsinki, Finland", "tr": "Helsinki, Finlandiya"},
+  "statement": {
+    "en": "I build reproducible computational pipelines for immunogenomics and cancer pharmacogenomics: multi-tool HLA typing with consensus calling across sequencing assays, and harmonised drug-response resources with machine-learning prediction of drug sensitivity.",
+    "tr": "İmmünogenomik ve kanser farmakogenomiği için tekrarlanabilir hesaplamalı iş akışları geliştiriyorum: farklı dizileme yöntemlerinde uzlaşı tabanlı, çok araçlı HLA tiplendirmesi ve makine öğrenmesiyle ilaç duyarlılığı tahmini yapan, uyumlaştırılmış ilaç yanıtı kaynakları."
+  },
+  "nav": {
+    "home": {"en": "Home", "tr": "Ana sayfa"},
+    "research": {"en": "Research", "tr": "Araştırma"},
+    "publications": {"en": "Publications", "tr": "Yayınlar"},
+    "cv": {"en": "CV", "tr": "Özgeçmiş"}
+  },
+  "labels": {
+    "status": {"en": "Status", "tr": "Durum"},
+    "selected": {"en": "Selected publications", "tr": "Seçili yayınlar"},
+    "all_pubs": {"en": "All publications", "tr": "Tüm yayınlar"},
+    "projects": {"en": "Current projects", "tr": "Güncel projeler"},
+    "earlier": {"en": "Earlier work", "tr": "Önceki çalışmalar"},
+    "education": {"en": "Education", "tr": "Eğitim"},
+    "experience": {"en": "Research experience", "tr": "Araştırma deneyimi"},
+    "internships": {"en": "Research internships", "tr": "Araştırma stajları"},
+    "skills": {"en": "Skills", "tr": "Yetkinlikler"},
+    "talks": {"en": "Presentations and awards", "tr": "Sunumlar ve ödüller"},
+    "languages": {"en": "Languages", "tr": "Diller"},
+    "contact": {"en": "Contact", "tr": "İletişim"},
+    "pubs_source": {"en": "Generated from ORCID; author lists from Crossref.", "tr": "ORCID'den oluşturuldu; yazar listeleri Crossref'ten alındı."},
+    "updated": {"en": "Last updated", "tr": "Son güncelleme"},
+    "switch": {"en": "Türkçe", "tr": "English"},
+    "skip": {"en": "Skip to content", "tr": "İçeriğe geç"},
+    "theme": {"en": "Toggle dark mode", "tr": "Koyu modu değiştir"}
+  },
+  "projects": [
+    {
+      "title": "ChampHLA",
+      "aim": {
+        "en": "A reproducible Nextflow workflow that runs several HLA typing tools on whole-genome, exome and RNA sequencing data and combines their calls by consensus, with a benchmark against reference typings.",
+        "tr": "Tam genom, ekzom ve RNA dizileme verilerinde birden fazla HLA tiplendirme aracını çalıştırıp sonuçlarını uzlaşıyla birleştiren ve referans tiplendirmelere karşı kıyaslanan, tekrarlanabilir bir Nextflow iş akışı."
+      },
+      "status": {"en": "Manuscript in preparation", "tr": "Makale hazırlanıyor"},
+      "role": {"en": "Lead developer", "tr": "Baş geliştirici"}
+    },
+    {
+      "title": "PharmacoProfiler",
+      "aim": {
+        "en": "A web platform that harmonises cancer cell-line drug-response data from public pharmacogenomic databases and predicts drug sensitivity with machine learning, with drug–cell line–target network views.",
+        "tr": "Halka açık farmakogenomik veritabanlarındaki kanser hücre hattı ilaç yanıtı verilerini uyumlaştıran, makine öğrenmesiyle ilaç duyarlılığını tahmin eden ve ilaç–hücre hattı–hedef ağlarını gösteren bir web platformu."
+      },
+      "status": {"en": "Manuscript under revision", "tr": "Makale revizyonda"},
+      "role": {"en": "Lead developer", "tr": "Baş geliştirici"}
+    }
+  ],
+  "earlier": [
+    {
+      "title": "DeepResponse",
+      "text": {
+        "en": "Multi-omics (expression, mutation, methylation, copy number) drug-sensitivity prediction from GDSC, CCLE and NCI-60, with cross-domain evaluation and in vitro validation. MSc thesis and TÜSEB project 3912, Hacettepe University (2020–2022).",
+        "tr": "GDSC, CCLE ve NCI-60 verileriyle çoklu omik (ifade, mutasyon, metilasyon, kopya sayısı) tabanlı ilaç duyarlılığı tahmini; alanlar arası değerlendirme ve in vitro doğrulama. Yüksek lisans tezi ve TÜSEB 3912 projesi, Hacettepe Üniversitesi (2020–2022)."
+      }
+    }
+  ],
+  "education": [
+    {
+      "degree": {"en": "MSc in Bioinformatics", "tr": "Biyoenformatik Yüksek Lisans"},
+      "place": {"en": "Hacettepe University, Turkey", "tr": "Hacettepe Üniversitesi, Türkiye"},
+      "when": "2019–2022",
+      "note": {
+        "en": "Thesis: “Comprehensive Cancer Cell Line Drug Response Prediction by Machine Learning Based Computational Modelling”. Advisor: Assoc. Prof. Tunca Doğan.",
+        "tr": "Tez: “Comprehensive Cancer Cell Line Drug Response Prediction by Machine Learning Based Computational Modelling”. Danışman: Doç. Dr. Tunca Doğan."
+      }
+    },
+    {
+      "degree": {"en": "BSc in Genetics and Bioengineering", "tr": "Genetik ve Biyomühendislik Lisans"},
+      "place": {"en": "Yeditepe University, Turkey", "tr": "Yeditepe Üniversitesi, Türkiye"},
+      "when": "2012–2016",
+      "note": {
+        "en": "Thesis: “The Analysis of Zfx Gene Family in Cardiomyocytes”. Advisor: Dr. Fatih Kocabaş.",
+        "tr": "Tez: “The Analysis of Zfx Gene Family in Cardiomyocytes”. Danışman: Dr. Fatih Kocabaş."
+      }
+    }
+  ],
+  "experience": [
+    {
+      "title": {"en": "Technical Assistant, In Silico Drug Discovery group (PI Ziaurrehman Tanoli)", "tr": "Teknik Asistan, In Silico İlaç Keşfi grubu (Yürütücü: Ziaurrehman Tanoli)"},
+      "place": {"en": "FIMM, University of Helsinki", "tr": "FIMM, Helsinki Üniversitesi"},
+      "when": {"en": "2023–present", "tr": "2023–günümüz"},
+      "points": {
+        "en": [
+          "ChampHLA: Nextflow DSL2 workflow integrating eight HLA typing tools with consensus calling across WGS, WES and RNA-seq; containerised and run at scale on the CSC Puhti and Roihu clusters.",
+          "Validation framework built on public truth sets and independent cohorts, with ground-truth integrity checks and allele normalisation.",
+          "PharmacoProfiler: cross-database harmonisation of drug-response data, chemical fingerprints, machine-learning drug-sensitivity prediction and network visualisation.",
+          "Contributed to the PGxDB resource and a review of computational drug repurposing."
+        ],
+        "tr": [
+          "ChampHLA: sekiz HLA tiplendirme aracını WGS, WES ve RNA-seq verilerinde uzlaşı ile birleştiren Nextflow DSL2 iş akışı; konteynerleştirildi ve CSC Puhti ile Roihu kümelerinde büyük ölçekte çalıştırıldı.",
+          "Halka açık referans setleri ve bağımsız kohortlar üzerine kurulu doğrulama çerçevesi; referans bütünlüğü kontrolleri ve alel normalizasyonu.",
+          "PharmacoProfiler: ilaç yanıtı verilerinin veritabanları arası uyumlaştırılması, kimyasal parmak izleri, makine öğrenmesiyle ilaç duyarlılığı tahmini ve ağ görselleştirmesi.",
+          "PGxDB kaynağına ve hesaplamalı ilaç yeniden konumlandırma derlemesine katkı."
+        ]
+      }
+    },
+    {
+      "title": {"en": "Project Fellow, TÜSEB project 3912 (PI Assoc. Prof. Tunca Doğan)", "tr": "Proje Bursiyeri, TÜSEB 3912 projesi (Yürütücü: Doç. Dr. Tunca Doğan)"},
+      "place": {"en": "Hacettepe University", "tr": "Hacettepe Üniversitesi"},
+      "when": {"en": "2020–2022", "tr": "2020–2022"},
+      "points": {
+        "en": ["Large-scale prediction of cancer cell-line drug response with deep-learning-based pharmacogenomic modelling; developed DeepResponse-RF."],
+        "tr": ["Derin öğrenme tabanlı farmakogenomik modelleme ile kanser hücre hattı ilaç yanıtının büyük ölçekli tahmini; DeepResponse-RF geliştirildi."]
+      }
+    }
+  ],
+  "internships": [
+    {"en": "Koch Institute for Integrative Cancer Research at MIT, Yilmaz Lab (Dr. Semir Beyaz), 2015: Wnt pathway genes in intestinal cancer initiation under a high-fat diet.", "tr": "MIT Koch Bütünleşik Kanser Araştırmaları Enstitüsü, Yilmaz Laboratuvarı (Dr. Semir Beyaz), 2015: yüksek yağlı diyette bağırsak kanseri başlangıcında Wnt yolağı genleri."},
+    {"en": "Aziz Sancar Institute of Experimental Medicine, Istanbul University, Department of Immunology, 2014: flow-cytometry immune phenotyping.", "tr": "Aziz Sancar Deneysel Tıp Araştırma Enstitüsü, İstanbul Üniversitesi, İmmünoloji Anabilim Dalı, 2014: akış sitometrisi ile immün fenotipleme."},
+    {"en": "Laboratory of Microbiology, Yeditepe University, 2014: microbial identification and antimicrobial susceptibility assays.", "tr": "Mikrobiyoloji Laboratuvarı, Yeditepe Üniversitesi, 2014: mikrobiyal tanımlama ve antimikrobiyal duyarlılık testleri."}
+  ],
+  "skills": [
+    {"area": {"en": "Programming", "tr": "Programlama"}, "items": "Python (pandas, NumPy, scikit-learn, RDKit), R, Bash, Git, GitHub Actions"},
+    {"area": {"en": "Omics data", "tr": "Omik veri"}, "items": {"en": "WGS/WES/RNA-seq processing (BAM/CRAM, samtools), multi-omics integration, benchmark design and ground-truth validation", "tr": "WGS/WES/RNA-seq işleme (BAM/CRAM, samtools), çoklu omik entegrasyonu, kıyaslama tasarımı ve referans doğrulaması"}},
+    {"area": {"en": "HPC and workflows", "tr": "HPC ve iş akışları"}, "items": "Nextflow DSL2, SLURM (CSC Puhti/Roihu), Docker, Singularity/Apptainer"},
+    {"area": {"en": "Data integration", "tr": "Veri entegrasyonu"}, "items": {"en": "Cross-database harmonisation of biomedical resources, identifier mapping, PostgreSQL", "tr": "Biyomedikal kaynakların veritabanları arası uyumlaştırılması, tanımlayıcı eşleme, PostgreSQL"}},
+    {"area": {"en": "Machine learning and networks", "tr": "Makine öğrenmesi ve ağlar"}, "items": {"en": "Drug-response prediction, cross-domain evaluation, drug–cell line–target networks (Cytoscape.js)", "tr": "İlaç yanıtı tahmini, alanlar arası değerlendirme, ilaç–hücre hattı–hedef ağları (Cytoscape.js)"}}
+  ],
+  "talks": [
+    {"year": "2025", "en": "Poster, Helsinki Hematology Days: “Novel ensemble Human Leukocyte Antigen typing, determination of loss of heterozygosity and cell-type specific HLA expression levels in acute myeloid leukemia”.", "tr": "Poster, Helsinki Hematology Days: “Novel ensemble Human Leukocyte Antigen typing, determination of loss of heterozygosity and cell-type specific HLA expression levels in acute myeloid leukemia”."},
+    {"year": "2022", "en": "Best Poster Award, HIBIT Symposium: “A multi-omics and machine learning-based predictor of drug sensitivity in cancer”.", "tr": "En İyi Poster Ödülü, HIBIT Sempozyumu: “A multi-omics and machine learning-based predictor of drug sensitivity in cancer”."},
+    {"year": "2022", "en": "Oral presentation, 7th European Student Council Symposium: “DeepResponse: a multi-omics based predictor of drug sensitivity for cancer”.", "tr": "Sözlü sunum, 7. Avrupa Öğrenci Konseyi Sempozyumu: “DeepResponse: a multi-omics based predictor of drug sensitivity for cancer”."},
+    {"year": "2011", "en": "YÖK scholarship for undergraduate education, Yeditepe University.", "tr": "YÖK lisans eğitimi bursu, Yeditepe Üniversitesi."}
+  ],
+  "spoken": {"en": "Turkish (native), English (fluent; working language for research)", "tr": "Türkçe (ana dil), İngilizce (ileri düzey; araştırma çalışma dili)"}
+}
