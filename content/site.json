@@ -139,5 +139,36 @@
     {"year": "2022", "en": "Oral presentation, 7th European Student Council Symposium: “DeepResponse: a multi-omics based predictor of drug sensitivity for cancer”.", "tr": "Sözlü sunum, 7. Avrupa Öğrenci Konseyi Sempozyumu: “DeepResponse: a multi-omics based predictor of drug sensitivity for cancer”."},
     {"year": "2011", "en": "YÖK scholarship for undergraduate education, Yeditepe University.", "tr": "YÖK lisans eğitimi bursu, Yeditepe Üniversitesi."}
   ],
-  "spoken": {"en": "Turkish (native), English (fluent; working language for research)", "tr": "Türkçe (ana dil), İngilizce (ileri düzey; araştırma çalışma dili)"}
+  "spoken": {"en": "Turkish (native), English (fluent; working language for research)", "tr": "Türkçe (ana dil), İngilizce (ileri düzey; araştırma çalışma dili)"},
+  "v2": {
+    "_note": "Text used only by the one-page second design at /v2/ (v2.py). Facts as above.",
+    "position": {"en": "Technical Assistant", "tr": "Teknik Asistan"},
+    "org": {"en": "In Silico Drug Discovery group, FIMM, University of Helsinki", "tr": "In Silico İlaç Keşfi grubu, FIMM, Helsinki Üniversitesi"},
+    "bio_more": {
+      "en": "I joined FIMM in 2023. Before that, my MSc in Bioinformatics at Hacettepe University focused on predicting drug sensitivity in cancer cell lines from multi-omics data.",
+      "tr": "2023'te FIMM'e katıldım. Öncesinde Hacettepe Üniversitesi'ndeki Biyoenformatik yüksek lisansım, çoklu omik verilerden kanser hücre hatlarında ilaç duyarlılığı tahmini üzerineydi."
+    },
+    "interests": [
+      {"en": "Immunogenomics and HLA typing", "tr": "İmmünogenomik ve HLA tiplendirmesi"},
+      {"en": "Cancer pharmacogenomics", "tr": "Kanser farmakogenomiği"},
+      {"en": "Machine learning for drug-response prediction", "tr": "İlaç yanıtı tahmini için makine öğrenmesi"},
+      {"en": "Reproducible workflows and HPC", "tr": "Tekrarlanabilir iş akışları ve HPC"}
+    ],
+    "nav": {
+      "about": {"en": "About", "tr": "Hakkımda"},
+      "projects": {"en": "Projects", "tr": "Projeler"},
+      "publications": {"en": "Publications", "tr": "Yayınlar"},
+      "experience": {"en": "Experience", "tr": "Deneyim"},
+      "talks": {"en": "Talks & awards", "tr": "Sunumlar ve ödüller"},
+      "contact": {"en": "Contact", "tr": "İletişim"}
+    },
+    "labels": {
+      "biography": {"en": "Biography", "tr": "Biyografi"},
+      "interests": {"en": "Interests", "tr": "İlgi alanları"},
+      "current": {"en": "Current", "tr": "Güncel"},
+      "earlier": {"en": "Earlier", "tr": "Önceki"},
+      "contact_lede": {"en": "Email is the best way to reach me.", "tr": "Bana ulaşmanın en iyi yolu e-posta."},
+      "classic": {"en": "Classic version", "tr": "Klasik sürüm"}
+    }
+  }
 }

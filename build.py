@@ -47,23 +47,28 @@ def href(target, lang, page, cur_lang):
     return rel or "./"
 
 
-def pub_html(p, lang, short=False):
+def authors_html(p, lang):
+    """Author list with Umut in bold; long lists keep the first three, the last and Umut."""
     a = p["authors"]
     me = p.get("self_index")
-    if a:
-        shown = list(range(len(a))) if len(a) <= 6 else sorted({0, 1, 2, len(a) - 1} | ({me} if me is not None else set()))
-        parts, last = [], -1
-        for i in shown:
-            if i - last > 1:
-                parts.append("…")
-            name = e(a[i])
-            parts.append(f"<strong>{name}</strong>" if i == me else name)
-            last = i
-        authors = ", ".join(parts)
-        if len(a) > 6:
-            authors += f" <span class=muted>({len(a)} {'authors' if lang == 'en' else 'yazar'})</span>"
-    else:
-        authors = ""
+    if not a:
+        return ""
+    shown = list(range(len(a))) if len(a) <= 6 else sorted({0, 1, 2, len(a) - 1} | ({me} if me is not None else set()))
+    parts, last = [], -1
+    for i in shown:
+        if i - last > 1:
+            parts.append("…")
+        name = e(a[i])
+        parts.append(f"<strong>{name}</strong>" if i == me else name)
+        last = i
+    authors = ", ".join(parts)
+    if len(a) > 6:
+        authors += f" <span class=muted>({len(a)} {'authors' if lang == 'en' else 'yazar'})</span>"
+    return authors
+
+
+def pub_html(p, lang, short=False):
+    authors = authors_html(p, lang)
     loc = ""
     if p.get("volume"):
         loc = f" {e(p['volume'])}" + (f"({e(p['issue'])})" if p.get("issue") else "") + (f":{e(p['pages'])}" if p.get("pages") else "")
@@ -217,6 +222,8 @@ def build() -> int:
     sm = "".join(f"<url><loc>{SITE_URL}{url(p, l)}</loc></url>" for l in LANGS for p in PAGES)
     (DIST / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>\n', encoding="utf-8")
     (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n", encoding="utf-8")
+    from v2 import build_v2  # second design, one-page Hugo Academic style, at /v2/
+    n += build_v2(DIST, C, P, t, authors_html)
     print(f"built {n} pages -> {DIST}")
     return 0
 
